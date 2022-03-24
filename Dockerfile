@@ -13,6 +13,5 @@ COPY requirements.txt /usr/src
 RUN pip3 install -r /usr/src/requirements.txt
 
 # make working dir
-RUN mkdir -p /home/ghbclnr
 WORKDIR /home/ghbclnr
 	
