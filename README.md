@@ -4,7 +4,7 @@ GithubCloner
 This is a dockerized version of *GithubCloner*. Please run as follows:
 
 ```
-$ docker run -v /tmp:/tmp -it tigerj/ghbclnr bash
+$ docker run -v /tmp:/tmp -it ghcr.io/ragingtiger/docker-ghbclnr:master bash
 root@3142c6faa182:/home/ghbclnr# mkdr /tmp/repos
 root@3142c6faa182:/home/ghbclnr# githubcloner --user <USERNAME> -o /tmp/repos
 ```
